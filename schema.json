@@ -1,0 +1,295 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "case solved",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": [
+                        "home"
+                    ]
+                },
+                {
+                    "name": "CaseSolvedIntent",
+                    "slots": [
+                        {
+                            "name": "inputLetter",
+                            "type": "Letter"
+                        }
+                    ],
+                    "samples": [
+                        "The answer is {inputLetter}",
+                        "the answer is {inputLetter}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": [
+                        "no"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": [
+                        "yes"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "Letter",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "skip",
+                                "synonyms": [
+                                    "SKIP",
+                                    "Skip"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "done",
+                                "synonyms": [
+                                    "DONE",
+                                    "Done"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "t",
+                                "synonyms": [
+                                    "T"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "s",
+                                "synonyms": [
+                                    "S"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "z",
+                                "synonyms": [
+                                    "Z"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "y",
+                                "synonyms": [
+                                    "Y"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "x",
+                                "synonyms": [
+                                    "X"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "w",
+                                "synonyms": [
+                                    "W"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "v",
+                                "synonyms": [
+                                    "V"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "u",
+                                "synonyms": [
+                                    "U"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "r",
+                                "synonyms": [
+                                    "R"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "q",
+                                "synonyms": [
+                                    "Q"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "p",
+                                "synonyms": [
+                                    "P"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "o",
+                                "synonyms": [
+                                    "O"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "n",
+                                "synonyms": [
+                                    "N"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "m",
+                                "synonyms": [
+                                    "M"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "l",
+                                "synonyms": [
+                                    "L"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "k",
+                                "synonyms": [
+                                    "K"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "j",
+                                "synonyms": [
+                                    "J"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "i",
+                                "synonyms": [
+                                    "I"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "h",
+                                "synonyms": [
+                                    "H"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "g",
+                                "synonyms": [
+                                    "G"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "f",
+                                "synonyms": [
+                                    "F"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "e",
+                                "synonyms": [
+                                    "E"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "d",
+                                "synonyms": [
+                                    "D"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "c",
+                                "synonyms": [
+                                    "C"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "b",
+                                "synonyms": [
+                                    "B"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "a",
+                                "synonyms": [
+                                    "A"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
